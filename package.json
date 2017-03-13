@@ -1,0 +1,25 @@
+{
+  "name": "njstproxy",
+  "version": "0.0.1",
+  "author": "Max Gotlib <mgotlib@exadel.com>",
+  "description": "Terminating HTTP/HTTPS proxy for for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/max-gotlib/njstproxy.git"
+  },
+  "homepage": "http://github.com/max-gotlib/njstproxy",
+  "main": "./lib/NJSTProxy.js",
+  "keywords": [
+    "http, proxy"
+  ],
+  "engines": {
+    "node": ">=6.10"
+  },
+  "dependencies": {
+      "njsx509" : "git://github.com/max-gotlib/njsx509.git",
+      "njssocketpair" : "git://github.com/max-gotlib/njssocketpair.git"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
